@@ -69,7 +69,7 @@ const LoginPage = () => {
 
           {/* login button */}
           <button onClick={() => navigate("/home")}
-            type="submit"
+            type="button"
             className="w-[220px] max-w-full self-center py-3 rounded-full
             bg-white text-[#111111] font-extrabold text-[15px] tracking-[0.08em]
             shadow-[0_12px_36px_rgba(15,23,42,0.3)]
